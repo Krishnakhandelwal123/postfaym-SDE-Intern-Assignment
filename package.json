@@ -1,0 +1,22 @@
+{
+  "name": "payout-system",
+  "version": "1.0.0",
+  "description": "User Payout Management System",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "migrate": "node src/db/migrate.js",
+    "test": "node --test --test-concurrency=1 tests/**/*.test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "pg": "^8.13.0"
+  },
+  "devDependencies": {
+    "supertest": "^7.0.0"
+  }
+}

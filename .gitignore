@@ -1,0 +1,5 @@
+node_modules/
+.env
+*.log
+.DS_Store
+Payout_System_Solution_Guide.md
